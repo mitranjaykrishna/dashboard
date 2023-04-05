@@ -1,0 +1,54 @@
+.dashMain{
+    display: grid;
+    width: 11rem;
+    height: 17rem;
+    grid-template-rows: 5rem 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(115, 119, 118);
+    border-radius: 30px;
+    color: white;
+    /* margin-bottom: 1rem; */
+}
+
+.dashTop{
+    display: grid;
+    margin-top: 1.5rem ;
+    grid-template-columns: 1fr 2fr;
+}
+.heading{
+    font-size: .5rem;
+}
+
+.logo{
+    background-color: black;
+    width: 1.5rem;
+    height: 1.52rem;
+    margin-left: 1.7rem;
+    border-radius: 6px;
+}
+
+.icon{
+    color: white;
+    align-items: center;
+    margin-left: .01rem;
+}
+
+
+.dashOther{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.logo1{
+    width: 1.5rem;
+    height: 1.52rem;
+    margin-left: 1.7rem;
+    border-radius: 6px;
+}
+.heading1{
+    font-size: .7rem;
+}
+.icon1{
+    color: white;
+    align-items: center;
+    margin-left: .3rem;
+}

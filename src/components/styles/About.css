@@ -1,0 +1,58 @@
+.aboutMain{
+    display: grid;
+    width: 11rem;
+    height: 11rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    background-color: rgb(115, 119, 118);
+    border-radius: 30px;
+    color: white;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.info {
+    font-size: .7rem;
+    /* text-align: center; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.info h1{
+    color: rgb(244, 45, 45);
+    margin-bottom: .1rem;
+}
+.info p{
+    font-size: .8rem;
+
+}
+
+.project {
+    text-align: center;
+    /* font-size: .5rem; */
+    margin-left: .99;
+   
+}
+.project h3{
+    font-size: .8rem;
+    margin-bottom: .2rem;
+}
+.project p{
+    font-size: .75rem;
+}
+
+.revenue{
+    text-align: center;
+    margin-right: 1rem;
+    /* font-size: .5rem; */
+}
+.revenue h3{
+    font-size: .8rem;
+    margin-bottom: .2rem;
+}
+.revenue p{
+    font-size: .75rem;
+}

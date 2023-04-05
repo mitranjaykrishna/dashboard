@@ -1,0 +1,43 @@
+.goProMain{
+    display: grid;
+    width: 11rem;
+    height: 11rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    background-color: rgb(94, 98, 217);
+    border-radius: 30px;
+    color: white;
+}
+
+
+.info {
+    font-size: .7rem;
+    /* text-align: center; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.info h1{
+    color:white;
+    margin-bottom: .1rem;
+}
+.info p{
+    font-size: .6rem;
+    margin-right: 2rem;
+
+}
+
+.lets {
+    text-align: center;
+    /* font-size: .5rem; */
+    margin-left: 3rem;
+   
+}
+.lets h3{
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: black;
+    border-radius: 5rem;
+    
+}
