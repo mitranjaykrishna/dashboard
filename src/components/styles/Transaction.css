@@ -1,0 +1,67 @@
+.transactionMain{
+    display: grid;
+    width: 25rem;
+    height: 15rem;
+    grid-template-rows: repeat(4,1fr);
+    /* grid-gap: 5px; */
+    background-color: rgb(115, 119, 118);
+    border-radius: 25px;
+    color: white;
+}
+
+
+.transactionRow1{
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 3rem;
+    margin-top: 1rem;
+    
+}
+.transactionRow1Col1{
+    grid-column: 2;
+    font-size: .5rem;
+}
+.transactionRow1Col1 p{
+    font-size: .7rem;
+}
+.transactionRow1Col2 img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    position: relative;
+    left: 80%;   
+}
+.transactionRow1Col2 p{
+    position: relative;
+    left: 68%;
+}
+/* .transactionRow1Col2 span{
+    margin-bottom: 1rem;
+} */
+.transactionRow3{
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 3rem;
+    margin-top: 1rem;
+    
+}
+.transactionRow3Arrow{
+    grid-column: 2;
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    border-radius: 100%;
+    text-align: center;
+}
+.arrow{
+    margin-top: .5rem;
+}
+
+.transactionSend{
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 3rem;
+    margin-top: 1rem;
+}
+
+.transactionSend div{
+    grid-column: 3;
+    text-align: right;
+}

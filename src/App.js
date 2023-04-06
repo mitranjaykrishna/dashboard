@@ -4,8 +4,10 @@ import About from './components/About';
 import Card from './components/Card';
 import Dashboard from './components/Dashboard';
 import GoPro from './components/GoPro';
+import Greating from './components/Greating';
 import Slot from './components/Slot';
 import TotalRevenue from './components/TotalRevenue';
+import TransactionDetail from './components/TransactionDetail';
 
 function App() {
   return (
@@ -32,10 +34,13 @@ function App() {
         <Slot />
       </div>
       <div className='col3'>
-
+        <Greating /> 
+        <TransactionDetail />       
       </div>
 
     </div>
+   
+    
     </>
   );
 }

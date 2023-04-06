@@ -1,0 +1,30 @@
+.greatingMain{
+    display: grid;
+    width: 25rem;
+    height: 8rem;
+    grid-template-columns: 1.5rem 1fr 5fr 1.5rem;
+    background-color: rgb(115, 119, 118);
+    color: white;
+    border-radius: 30px;
+
+}
+
+.image{
+    grid-column: 2;
+    
+
+}
+.image img{
+    height: 2rem;
+    width: 1;
+    position: relative;
+    top: 40%;
+    
+}
+
+.content{
+    height: 5rem;
+    font-size: .7rem;
+    position: relative;
+    top: 20%;
+}
