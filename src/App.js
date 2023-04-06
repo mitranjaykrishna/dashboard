@@ -5,6 +5,7 @@ import Card from './components/Card';
 import Dashboard from './components/Dashboard';
 import GoPro from './components/GoPro';
 import Greating from './components/Greating';
+import ProjectDetail from './components/ProjectDetail';
 import Slot from './components/Slot';
 import TotalRevenue from './components/TotalRevenue';
 import TransactionDetail from './components/TransactionDetail';
@@ -35,7 +36,8 @@ function App() {
       </div>
       <div className='col3'>
         <Greating /> 
-        <TransactionDetail />       
+        <TransactionDetail /> 
+        <ProjectDetail />      
       </div>
 
     </div>

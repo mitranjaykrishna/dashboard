@@ -10,17 +10,17 @@
 }
 
 
-.info {
+.infoGo {
     font-size: .7rem;
     /* text-align: center; */
     margin-left: 2rem;
     margin-top: 1rem;
 }
-.info h1{
+.infoGo h1{
     color:white;
     margin-bottom: .1rem;
 }
-.info p{
+.infoGo p{
     font-size: .6rem;
     margin-right: 2rem;
 

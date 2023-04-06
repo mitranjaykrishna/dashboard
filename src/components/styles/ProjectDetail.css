@@ -1,0 +1,51 @@
+.projectDetailMain{
+    display: grid;
+    width: 11rem;
+    height: 12.5rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    background-color: rgb(115, 119, 118);
+    border-radius: 30px;
+    color: white;
+}
+
+/* .dataProject{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+} */
+
+.infoProject {
+    font-size: .7rem;
+    /* text-align: center; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.infoProject h1{
+    color: rgb(244, 45, 45);
+    margin-bottom: .1rem;
+}
+.infoProject p{
+    font-size: .8rem;
+
+}
+
+.projectPro {
+    margin-left: 2rem;
+   
+}
+.projectPro h3{
+    font-size: .7rem;
+    margin-bottom: .7rem;
+}
+.projectPro h4{
+    font-size: .7rem;
+    margin-bottom: .7rem;
+    margin-right: 1.6rem;
+    text-align: right;
+
+}
+
+.statusBarPro{
+    width: 7.5rem;
+}

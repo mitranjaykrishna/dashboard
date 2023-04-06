@@ -5,7 +5,7 @@ const GoPro=()=>{
     return(
         <>
             <div className="goProMain">
-                <div className="info">
+                <div className="infoGo">
                     <h1>Go Pro</h1>
                     <p>Upgrade your plane to get pro benefits</p>
                 </div>
