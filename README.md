@@ -12,6 +12,8 @@ npm install react-icons --save
 
 npm install @mui/material @emotion/react @emotion/styled  @mui/icons-material
 
+npm i react-circular-progressbar
+
 
 
 Runs the app in the development mode.\

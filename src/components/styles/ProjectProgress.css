@@ -1,0 +1,41 @@
+.projectProgressMain{
+    display: grid;
+    width: 12rem;
+    height: 13.5rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    background-color: rgb(115, 119, 118);
+    border-radius: 30px;
+    color: white;
+    /* margin-top: 2rem; */
+}
+
+/* .dataProjectProgress{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+} */
+
+.infoProjectProgress {
+    font-size: .7rem;
+    /* text-align: center; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.infoProjectProgress p{
+    font-size: .8rem;
+}
+.cr{
+    width: 7rem;
+    
+    position: relative;
+    left: 20%;
+}
+
+.cr p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: .6rem;
+}
+
+

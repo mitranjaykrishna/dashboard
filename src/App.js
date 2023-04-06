@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard';
 import GoPro from './components/GoPro';
 import Greating from './components/Greating';
 import ProjectDetail from './components/ProjectDetail';
+import ProjectProgress from './components/ProjectProgress';
 import Slot from './components/Slot';
 import TotalRevenue from './components/TotalRevenue';
 import TransactionDetail from './components/TransactionDetail';
@@ -39,11 +40,14 @@ function App() {
         <TransactionDetail /> 
         <div className='col3TH'>
         <ProjectDetail />  
-        <ProjectDetail /> 
-        </div>    
+        <ProjectProgress />  
+        </div> 
+          
       </div>
 
     </div>
+
+    {/* <ProjectProgress /> */}
    
     
     </>
