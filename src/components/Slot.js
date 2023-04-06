@@ -20,8 +20,8 @@ const Slot=()=>{
 
             <div>
                 <div className="slotCol">
-                    <div>
-                        <SlotCalender date='12' month='June' />
+                    <div >
+                        <SlotCalender date='12' month='June' backe={true} />
                     </div>
                     <div>
                         <SlotCalender date='18' month='June' />

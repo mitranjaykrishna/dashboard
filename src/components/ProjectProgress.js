@@ -48,7 +48,7 @@ const ProjectProgress=()=>{
                                 },
                                 // Customize background - only used when the `background` prop is true
                                 background: {
-                                fill: 'red',
+                                fill: 'rgb(228, 40, 40)',
                                 fonSize: '5rem',
                                 },
                             }}/>

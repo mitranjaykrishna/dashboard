@@ -6,7 +6,7 @@ const Greating=()=>{
         <>
             <div className="greatingMain">
                 <div className="image">
-                    <img src="/image/red-flag.png" alt="image"></img>
+                    <img src="/image/red-flag.png" alt="image1"></img>
                 </div>
                 <div className="content">
                     <h1>Dear Client</h1>
