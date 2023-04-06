@@ -1,12 +1,13 @@
 .projectDetailMain{
     display: grid;
-    width: 11rem;
-    height: 12.5rem;
+    width: 12rem;
+    height: 13.5rem;
     grid-template-rows: repeat(2,1fr);
     grid-gap: 20px;
     background-color: rgb(115, 119, 118);
     border-radius: 30px;
     color: white;
+    /* margin-top: 2rem; */
 }
 
 /* .dataProject{

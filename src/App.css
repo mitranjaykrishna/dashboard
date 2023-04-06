@@ -19,8 +19,21 @@
   grid-gap: 20px;
 }
 
+.col3{
+  display: grid;
+  grid-template-rows: 8rem 17rem 11rem;
+  grid-gap: 20px;
+  
+}
+
 .col2TH{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+}
+
+.col3TH{
+  display: grid;
+  grid-template-columns: repeat(2,12.5rem);
   grid-gap: 10px;
 }

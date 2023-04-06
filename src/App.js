@@ -37,7 +37,10 @@ function App() {
       <div className='col3'>
         <Greating /> 
         <TransactionDetail /> 
-        <ProjectDetail />      
+        <div className='col3TH'>
+        <ProjectDetail />  
+        <ProjectDetail /> 
+        </div>    
       </div>
 
     </div>
