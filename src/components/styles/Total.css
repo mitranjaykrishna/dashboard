@@ -1,6 +1,6 @@
 .totalMain{
     display: grid;
-    width: 16rem;
+    width: 19rem;
     height: 6rem; 
     border-radius: 30px;
     grid-template-columns: 2fr 3fr;

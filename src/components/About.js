@@ -6,7 +6,7 @@ const About=()=>{
         <>
             <div className="aboutMain">
                 <div className="info">
-                    <h1>Hira R.</h1>
+                    <h1 className="aboutName">Hira R.</h1>
                     <p>UX/UI Designer</p>
                 </div>
                 <div className="data">

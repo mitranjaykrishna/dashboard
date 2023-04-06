@@ -1,0 +1,63 @@
+.cardMain{
+    display: grid;
+    width: 9rem;
+    height: 12rem; 
+    border-radius: 30px;
+    grid-template-rows: repeat(4,1fr);
+    background-color: rgb(115, 119, 118);
+    color: white;
+}
+
+.cardHeading{
+    font-size: .5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.cardHeading h1{
+    margin-bottom: .2rem; 
+}
+
+.cardPeople{
+    font-size: .5rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    
+}
+.cardPeople p{
+    margin-bottom: .5rem;
+}
+
+.cardPeopleBack{
+    background-color: antiquewhite;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.buttonGrp1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:5px;
+    
+    
+}
+
+.button1 button{
+    /* height: 1.5rem; */
+    
+    font-size: .5rem;
+    width: 1rem;
+    padding: .1rem;
+    border-radius: 27%;
+}
+
+.buttonGrp2 button{
+    font-size: .5rem;
+    width: 1rem;
+    padding: .1rem;
+    border-radius: 27%;
+    background-color: black;
+    margin-left: 1rem;
+}
